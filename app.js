@@ -34,3 +34,18 @@ var a = 'Hello World!';
 function b() {
     console.log('Called b!');
 }
+
+//One way to access primitive types
+
+var person = new Object();
+
+person["firstname"] = "Tony";
+person["lastname"] = "Alicea";
+
+var firstNameProperty = "firstname"
+
+console.log(person);
+console.log(person[firstNameProperty]);
+
+//The dot method
+console.log(person.firstname)
